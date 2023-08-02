@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template
-
+# prefix every route in the blueprint with /dashboard
 bp = Blueprint('dashboard', __name__, url_prefix='/dashboard')
 
 @bp.route('/')
